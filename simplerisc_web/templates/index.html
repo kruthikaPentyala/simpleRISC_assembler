@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleRISC Assembler</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>SimpleRISC Assembler</h2>
+        <form action="/" method="post" enctype="multipart/form-data" class="upload-form">
+            <input type="file" name="file" required>
+            <button type="submit">Upload & Process</button>
+        </form>
+
+        {% if bin_file and hex_file %}
+        <div class="output-section">
+            <h3>Download Output Files:</h3>
+            <a href="{{ url_for('download_file', filename=bin_file) }}" class="download-btn" download>Download Binary File</a>
+            <a href="{{ url_for('download_file', filename=hex_file) }}" class="download-btn" download>Download Hex File</a>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
