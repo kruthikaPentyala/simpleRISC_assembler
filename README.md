@@ -59,7 +59,7 @@ loop:
 
 ---
 ### 📂 Project Structure
-
+```
 simpleRISC_assembler/
 │── static/
 │   ├── styles.css         # Frontend styling
@@ -73,7 +73,7 @@ simpleRISC_assembler/
 │── requirements.txt       # Dependencies
 │── README.md              # Documentation
 ---
-
+```
 ### 🏗 **Code Overview**
 #### 🔹 `app.py`
 - Flask-based backend.
