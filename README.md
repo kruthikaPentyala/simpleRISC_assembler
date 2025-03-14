@@ -29,13 +29,13 @@ python app.py
 ```
 Open your browser and go to http://127.0.0.1:5000/ to access the web app.
 
-### 🚀 Usage Instructions
+#### 🚀 Usage Instructions
 -Open the web app.
 -Click the "Upload File" button to select a .asm (SimpleRISC assembly) file.
 -Click "Assemble" to process the file.
 -Download the generated .bin and .hex output files.
 
-## 📄 Input File Format (SimpleRISC Assembly)
+#### 📄 Input File Format (SimpleRISC Assembly)
 🔹The assembler expects an input .asm file following these rules:
 
 -Comments must use //.
