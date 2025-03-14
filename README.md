@@ -24,7 +24,9 @@ Ensure you have Python installed, then install the required dependencies.
 
 ### 3️⃣ Run the Application
 Start the Flask backend.
+```
 python app.py
+```
 Open your browser and go to http://127.0.0.1:5000/ to access the web app.
 
 ### 🚀 Usage Instructions
