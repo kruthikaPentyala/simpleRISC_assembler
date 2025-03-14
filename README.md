@@ -24,23 +24,21 @@ Ensure you have Python installed, then install the required dependencies.
 
 ### 3️⃣ Run the Application
 Start the Flask backend.
-
-sh
 python app.py
 Open your browser and go to http://127.0.0.1:5000/ to access the web app.
 
-🚀 Usage Instructions
+### 🚀 Usage Instructions
 Open the web app.
 Click the "Upload File" button to select a .asm (SimpleRISC assembly) file.
 Click "Assemble" to process the file.
 Download the generated .bin and .hex output files.
 
-📄 Input File Format (SimpleRISC Assembly)
+### 📄 Input File Format (SimpleRISC Assembly)
 The assembler expects an input .asm file following these rules:
 
 Comments must use //.
 Labels must be placed on a separate line, without instructions on the same line.
-✅ Example Input (example.asm):
+### ✅ Example Input (example.asm):
 
       mov r1, 1       // fact = 1
       mov r2, r0      // the number is stored in input port register r0
@@ -53,11 +51,11 @@ loop:
       mov r3, r1      // else the result is stored in output port register r3
       hlt            // stops program counter to be incremented
 
-🎯 Expected Output:
+#### 🎯 Expected Output:
 example.bin (Binary format)
 example.hex (Hexadecimal format)
 
-📂 Project Structure
+#### 📂 Project Structure
 simpleRISC_assembler/
 │── static/
 │   ├── styles.css         # Frontend styling
@@ -71,7 +69,7 @@ simpleRISC_assembler/
 │── requirements.txt       # Dependencies
 │── README.md              # Documentation
 
-🏗 Code Overview
+### 🏗 Code Overview
 🔹 app.py
 Flask-based backend.
 Handles file uploads.
