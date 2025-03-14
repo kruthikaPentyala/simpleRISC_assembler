@@ -15,7 +15,7 @@ This project provides a web-based SimpleRISC assembler where users can upload an
 ## 🛠 Installation
 
 ### 1️⃣ Clone the Repository
-```sh
+
 git clone https://github.com/your-username/simpleRISC_assembler.git
 cd simpleRISC_assembler
 
@@ -26,8 +26,6 @@ Ensure you have Python installed, then install the required dependencies.
 Start the Flask backend.
 
 sh
-Copy
-Edit
 python app.py
 Open your browser and go to http://127.0.0.1:5000/ to access the web app.
 
