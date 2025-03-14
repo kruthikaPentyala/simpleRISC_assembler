@@ -16,7 +16,7 @@ This project provides a web-based SimpleRISC assembler where users can upload an
 
 ### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/simpleRISC_assembler.git
+git clone https://github.com/kruthikaPentyala/simpleRISC_assembler.git
 cd simpleRISC_assembler
 
 ### 2️⃣ Install Dependencies
