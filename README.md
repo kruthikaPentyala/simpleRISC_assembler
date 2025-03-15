@@ -72,7 +72,7 @@ simpleRISC_assembler/
 │   ├── index.html         # Web interface (frontend)
 │── uploads/               # Folder for storing uploaded files
 │── outputs/               # Folder for storing generated output files
-│── assembler.py           # Core assembler logic
+│── assembler_modifier.py           # Core assembler logic
 │── convert_bin_to_hex.py  # Converts binary to hex
 │── app.py                 # Flask backend to handle file uploads and processing
 │── requirements.txt       # Dependencies
@@ -87,7 +87,7 @@ simpleRISC_assembler/
 - Runs `convert_bin_to_hex.py` to convert the binary output to hex.
 - Allows users to download the output files.
 
-#### 🔹 `assembler.py`
+#### 🔹 `assembler_modifier.py`
 - Reads SimpleRISC assembly instructions.
 - Converts them into binary machine code.
 - Ensures labels are on a separate line.
